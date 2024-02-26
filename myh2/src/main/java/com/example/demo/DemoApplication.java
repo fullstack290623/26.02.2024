@@ -19,8 +19,9 @@ public class DemoApplication {
 
 		Object dataSource = context.getBean("dataSource");
 
+		System.out.println("======================");
 		System.out.println(dataSource);
-
+		System.out.println("======================");
 	}
 
 	@Bean
